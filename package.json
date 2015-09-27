@@ -1,9 +1,9 @@
 {
-  "name": "pen-paper-coffee-syntax",
+  "name": "magneto-markdown-syntax",
   "theme": "syntax",
-  "version": "0.8.3",
-  "description": "A syntax theme specifically for writing papers in markdown. Featuring a paper like color scheme and increased font-size for headings",
-  "repository": "https://github.com/nylki/pen-paper-coffee-syntax",
+  "version": "1.0.0",
+  "description": "A syntax theme specifically for writing papers in markdown. Featuring a paper like color scheme and increased font-size for headings. Forked from pen-paper-coffee-syntax.",
+  "repository": "https://github.com/lodestone/magneto-markdown-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
@@ -11,7 +11,7 @@
   "keywords": [
     "markdown",
     "light",
-    "brown",
+    "pandoc",
     "writing",
     "citing"
   ]

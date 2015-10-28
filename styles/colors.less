@@ -1,6 +1,6 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@cursor-color: rgb(30, 30, 8);
+@cursor-color: rgb(255, 51, 153);
 
 @comment-ink: rgb(156, 163, 176);
 @invisible-ink: rgba(169, 193, 214, 0.70);
@@ -9,18 +9,18 @@
 @ink:            rgb(43, 63, 106);
 @dark-ink:       rgb(42, 18, 10);
 
-@heading-ink: @dark-ink;
+@heading-ink: @ink;
 
-@quote-color:         fade(rgb(126, 81, 33),77%);
-@quote-support-color: @very-light-ink;
+@quote-color:         rgb(110, 125, 170);
+@quote-support-color: @ink;
 
-@citation-symbol-color: rgba(169, 86, 31, 0.43);
-@citation-name-color:   rgb(170, 92, 8);
+@citation-symbol-color: rgba(249, 0, 97, 1);
+@citation-name-color:   rgb(8, 170, 106);
 
 
 //old @emphasize-color:   rgb(8, 123, 172);
-@emphasize-color: spin(saturate(@light-ink, 25%), -7);
-@emphasize-quote-color: spin(saturate(@quote-color, 40%), -10);
+@emphasize-color: spin(saturate(@ink, 25%), -7);
+@emphasize-quote-color: darken(@quote-color, 10%);
 
 
 @bold-color:        darken(@emphasize-color, 10%);

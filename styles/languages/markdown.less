@@ -14,7 +14,7 @@
         font-weight: bold;
     }
     &.heading .punctuation.definition.heading {
-        color: @blue;
+        color: rgba(249, 0, 97, 1);
     }
     &.inserted {
         color: @green;
@@ -35,14 +35,14 @@
     }
     &.underline {
         text-decoration: none;
-        border-bottom: @invisible-ink;
+        border-bottom: rgb(8, 123, 172);
         border-width: 0px 0px 1px 0px;
         border-style: none none solid none;
 
     }
     &.heading {
-        color: @heading-ink;
-        font-weight: normal;
+        color: rgb(240, 0, 0);
+        font-weight: bold;
         position: relative;
         &.heading-1 {
             font-size: 135%;
@@ -68,25 +68,25 @@
         }
         // marker of headings
         &.marker {
-            color: fade(@heading-ink, 55%);
+            color: rgb(8, 170, 106);
         }
     }
 }
 
 .gfm {
     .markup.heading {
-        font-weight: normal;
+        font-weight: bold;
     }
     &.variable {
         color: @blue;
     }
     &.entity {
-        color: @light-ink;
+        color: @citation-symbol-color;
     }
 
     &.punctuation.definition {
     &.begin, &.end {
-        color: @very-light-ink;
+        color: @citation-name-color;
         }
     }
 
@@ -117,9 +117,8 @@
         color: @bold-quote-color;
         font-weight: bold;
     }
-
     .support {
-        color: @very-light-ink;
+        color: rgba(249, 0, 97, 1);
     }
 
 }
